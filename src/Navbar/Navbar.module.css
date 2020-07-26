@@ -1,0 +1,15 @@
+.nav{
+  background-color: #faedfa;
+  padding: 20px;
+}
+
+.item{
+  font-weight: 600;
+  font-size: 22px;
+  color: black;
+}
+
+.item a{
+  text-decoration: none;
+}
+

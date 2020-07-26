@@ -1,0 +1,36 @@
+.wrapper {
+  margin-top: 50px;
+}
+
+.title {
+  font-size: 24px;
+  color:rgb(105, 34, 78);
+  font-weight: 900;
+  text-align: center;
+}
+
+.item {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  margin-top: 25px;
+  padding: 10px;
+  border: 2px solid rgb(105, 34, 78);
+  border-radius: 15px;
+}
+
+.image{
+  width: 50px;
+  border-radius: 50%;
+}
+
+.name{
+  font-weight: bold;
+  color:#2E2A5D
+}
+
+.sydeItem{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

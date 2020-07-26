@@ -1,0 +1,27 @@
+.image{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 30px;
+}
+
+.item{
+  display: flex;
+  align-items: flex-end;
+}
+
+.elements{
+  margin:25px 0;
+}
+
+.message{
+  color: blueviolet;
+  font-size: 22;
+  font-weight: 600;
+}
+
+.likes{
+  color: rgb(67, 102, 165);
+  font-size: 25;
+  font-weight: 900;
+}

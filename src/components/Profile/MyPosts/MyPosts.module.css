@@ -1,0 +1,26 @@
+
+
+.title{
+  font-size: 24px;
+  color: rgb(105, 34, 78);
+}
+
+
+.textArea{
+  width: 320px;
+  border: none;
+  resize: none;
+  border-radius: 10px;
+  background-color: #faedfa;
+}
+
+
+.button{
+  margin-top: 15px;
+  width: 125px;
+  padding: 10px 0;
+  border-radius: 5px;
+  border: 1px transparent;
+  position: relative;
+  left: 90px;
+}
