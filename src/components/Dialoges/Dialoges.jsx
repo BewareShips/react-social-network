@@ -3,6 +3,7 @@ import s from './Dialoges.module.css'
 import DialogItem from './DialogItem/DialogItems';
 import Message from './Message/Message';
 import { updateMessageActionCreater, sendMessageCreator } from '../../Redux/dialogsReducer';
+import { Redirect } from 'react-router-dom';
 
 
 
@@ -14,7 +15,6 @@ import { updateMessageActionCreater, sendMessageCreator } from '../../Redux/dial
 
 
 const Dialoges = (props) =>{
-  debugger;
   let state = props.dialogPage;
 
   const dialogElements = state.dialogData.map(({name, id, image})=><DialogItem name={name} id={id} image={image}/>)
@@ -29,6 +29,9 @@ const Dialoges = (props) =>{
   const onNewMessageChange =(event) =>{
     let body = event.target.value
     props.updateMessageActionCreater(body)
+  }
+  if(!props.isAuth){
+    return <Redirect to={"./login"}/>
   }
 
 

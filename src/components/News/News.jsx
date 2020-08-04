@@ -5,7 +5,7 @@ import s from './News.module.css'
 const News = () =>{
   return (
     <div>
-      News
+      Newsmzf
     </div>
   )
 }
