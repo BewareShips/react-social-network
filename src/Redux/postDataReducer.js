@@ -42,9 +42,6 @@ let initialState = {
 export const addPostActionCreator =() => {
   return {type: ADD_POST}
 }
-export const updatePostTextActionCreater =(text) => {
-  return {type:UPDATE_POST_TEXT, newText:text}
-}
 
 export const setUserProfile =(profile) => {
   return {type:SET_USER_PROFILE, profile}
@@ -74,9 +71,12 @@ export const getStatus = (userId) => (dispatch) =>{
     if(response.data.resulCode === 0){
       dispatch(setStatus(status))
     }
-   
   })
  }
+
+ export const updatePostTextActionCreater =(text) => {
+  return {type:UPDATE_POST_TEXT, newText:text}
+}
 
  
 export default postdataReducer
