@@ -30,7 +30,7 @@ const Login = (props) =>{
   return (
     <div>
       <h1>Login</h1>
-      <LoginReduxForm onSubmit={}/>
+      <LoginReduxForm onSubmit={onSubmit}/>
     </div>
     
   )
